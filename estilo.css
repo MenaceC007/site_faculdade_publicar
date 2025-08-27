@@ -1,0 +1,455 @@
+/** {
+    background-color: black;
+    color: white;
+}*/
+
+body {
+    background-color: black;
+}
+
+/*fontes do documento/*/
+/*titulos*/
+@font-face {
+    font-family: neon;
+    src: url(/fonts/Neonstar.ttf);
+}
+/*titulos 2*/
+@font-face {
+    font-family: geizer;
+    src: url(/fonts/geizer.ttf);
+}
+/*Corpo de texto*/
+@font-face {
+    font-family: quota;
+    src: url(/fonts/Quota.otf);
+}
+
+/*barra de navegação*/
+@font-face {
+    font-family: tox_tpw;
+    src: url(/fonts/tox_typewriter.ttf);
+}
+
+
+/*barra de navegação principal*/
+.nav_bar {
+    background-color: #ba72a5;
+    display: flex;
+    align-items: center;
+}
+
+.nav_bar nav {
+    flex: 1;
+    text-align: center;
+
+}
+
+.nav_bar ul{
+    display: inline-block;
+    list-style-type: none;
+}
+
+.nav_bar ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.nav_bar a {
+    color: black;
+    text-decoration: none;
+    background-color: #ba72a5;
+    font-family: tox_tpw;
+    text-align: center;
+    font-size: 40px;
+}
+
+.nav_bar a:visited {
+    color: black;
+}
+
+/*titulo de entrada da pagina*/
+.titulo{
+    font-family: neon;
+    text-align: center;
+}
+/*nome principal com suas cores*/
+.crystal {
+    color: white;
+    font-size: 70px;
+}
+.chi {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 130px;
+    color: #e80ba9;
+    font-size: 60px;
+}
+
+#acordar_crystal {
+    font-family: tox_tpw;
+    font-size: 40px;
+    text-align: center;
+    background-color: #e80ba9;
+    color: black;
+    border-radius: 20px;
+}
+
+.crystal_arte_botao {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#acordar_crystal button:hover {
+    background-color: #ba72a5;
+}
+
+/*botão de retorno*/
+.voltar button {
+    font-family: tox_tpw;
+    font-size: 20px;
+    text-align: center;
+    background-color: #e80ba9;
+    color: black;
+    border-radius: 20px;
+    padding: 10px 10px;
+    margin-top: 20px;
+}
+
+.voltar button:hover {
+    background-color: #ba72a5;
+}
+
+.voltar a {
+    text-decoration: none;
+    color: black;
+    background-color: transparent;
+}
+
+.voltar a:visited {
+    color: black;
+}
+
+/*seção Sobre Mim*/
+.sobre {
+    color: white;
+    font-family: geizer;
+    text-align: center;
+    font-size: 50px;
+}
+
+.about {
+    color: #ba72a5;
+    font-family: tox_tpw;
+    text-align: center;
+    font-size: 30px;
+    position: relative;
+    bottom: 75px;
+}
+
+.introducao {
+    color: white;
+    font-family: quota;
+    text-align: center;
+    font-size: 30px;
+    bottom: 240px;
+}
+
+.voltar {
+    text-align: right;
+    margin-top: 20px;
+}
+
+/*FILLER ENTRE SEÇÕES*/
+.container_filler_1 img {
+    width: 100%;
+    max-width: 1920px;
+
+}
+
+/*seção FORMAÇÃO*/
+/*formação*/
+.formacao {
+    color: white;
+    font-family: geizer;
+    text-align: center;
+    font-size: 50px;
+}
+
+.education {
+    color: #ba72a5;
+    font-family: tox_tpw;
+    text-align: center;
+    font-size: 30px;
+    position: relative;
+    bottom: 75px;
+}
+
+.formacao_texto {
+    color: white;
+    font-family: quota;
+    font-size: 30px;
+    text-align: center;
+}
+
+.formacao_texto li {
+    list-style-type: '->';
+    list-style-position: inside;
+}
+
+/*habilidades*/
+.habilidades {
+    color: white;
+    font-family: geizer;
+    text-align: center;
+    font-size: 50px;
+}
+
+.skills {
+    color: #ba72a5;
+    font-family: tox_tpw;
+    text-align: center;
+    font-size: 30px;
+    position: relative;
+    bottom: 75px;
+}
+
+.habilidades_texto {
+    color: white;
+    font-family: quota;
+    text-align: center;
+    font-size: 30px;
+}
+
+.habilidades_texto li {
+    list-style-type: '->';
+    list-style-position: inside;
+}
+
+.container_filler_2 img {
+    width: 100%;
+    max-width: 1920px;
+}
+
+/*seção do portfolio*/
+.portfolio {
+    color: white;
+    font-family: geizer;
+    text-align: center;
+    font-size: 50px;
+}
+
+.my_works {
+    color: #ba72a5;
+    font-family: tox_tpw;
+    text-align: center;
+    font-size: 30px;
+    position: relative;
+    bottom: 75px;
+}
+
+/*Navegação do portfolio*/
+.botoes_nav {
+    color: white;
+    text-align: center;
+    position: relative;
+    bottom: 50px;
+}
+
+.botoes_nav button {
+    font-family: tox_tpw;
+    color: white;
+    background-color: #e80ba9;
+    border-radius: 20px;
+    font-size: 25px;
+    width: 250px;
+    gap: 30px;
+}
+
+.botoes_nav a {
+    text-decoration: none;
+    color: black;
+    background-color: transparent;
+}
+
+.botoes_nav a:visited {
+    color: black;
+}
+
+.botoes_nav li {
+    list-style-type: none;
+    margin: 10px;
+}
+
+.botoes_nav button:hover {
+    background-color: #ba72a5;
+}
+
+
+/*design grafico*/
+.design_grafico img {
+    width: 100%;
+    height: auto;
+    max-width: 300px;
+    border-radius: 20px;
+}
+
+.design_grafico h4 {
+    color: white;
+    font-family: geizer;
+    text-align: center;
+    font-size: 30px;
+}
+
+/*Arte 2D*/
+.arte_2D img {
+    width: 100%;
+    height: auto;
+    max-width: 300px;
+    border-radius: 20px;
+}
+
+.arte_2D h4 {
+    color: white;
+    font-family: geizer;
+    text-align: center;
+    font-size: 30px;
+}
+
+/*Web design*/
+.web_design img {
+    width: 100%;
+    height: auto;
+    max-width: 300px;
+    border-radius: 20px;
+}
+
+.web_design h4 {
+    color: white;
+    font-family: geizer;
+    text-align: center;
+    font-size: 30px;
+}
+
+/*CARROSSEL DE IMAGENS*/
+.container_do_carrossel {
+    max-width: 880px;
+    margin: 50px auto;
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+.carrossel {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.carrossel_item {
+    min-width: 100%;
+    flex-shrink: 0;
+    text-align: center;
+}
+
+.carrossel_item img {
+    width: 100%;
+    max-width: 100%;
+    height: 450px;
+    object-fit: contain;
+    display: block;
+    margin: 0 auto;
+}
+
+.botao_carrossel {
+    transform: translateY(-50%);
+    background: #e80ba9;
+    border: none;
+    color: black;
+    font-family: geizer;
+    font-size: 50px;
+    padding: 20px;
+    cursor: pointer;
+    border-radius: 100%;
+    z-index: 10;
+    transition: background 0.3s ease;
+}
+
+.botao_carrossel:hover {
+    background-color: #ba72a5;
+}
+
+.proximo {
+    position: relative;
+    bottom: 250px;
+    left: 750px;
+}
+
+.anterior {
+    position: relative;
+    bottom: 250px;
+}
+
+.indicadores_carrossel {
+    transform: translateX(-50%);
+    display: flex;
+    gap: 10px;
+    z-index: 10;
+}
+
+.indicador {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: #e80ba9;
+}
+
+.indicador.ativo {
+    background: #e80ba9;
+}
+
+
+/*seção de contato!*/
+.contato {
+    color: white;
+    font-family: geizer;
+    text-align: center;
+    font-size: 50px;
+}
+
+.contact_me {
+    color: #ba72a5;
+    font-family: tox_tpw;
+    text-align: center;
+    font-size: 30px;
+    position: relative;
+    bottom: 75px;
+}
+
+.redes_sociais {
+    color: white;
+    font-family: geizer;
+    text-align: center;
+    font-size: 30px;
+}
+
+.redes_sociais p {
+    color: white;
+    font-family: quota;
+    text-align: center;
+}
+
+.redes_sociais a {
+    text-decoration: none;
+    color: white;
+}
+
+.redes_sociais a:hover {
+    color: #ba72a5;
+}
+
+/*Assinatura no final da pagina*/
+.assinatura {
+    text-align: center;
+}
+.assinatura img {
+    max-width: 65%;
+}
