@@ -81,7 +81,7 @@ body {
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
-    bottom: 130px;
+    bottom: 100px;
     color: #e80ba9;
     font-size: 60px;
 }
