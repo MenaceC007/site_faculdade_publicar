@@ -11,23 +11,23 @@ body {
 /*titulos*/
 @font-face {
     font-family: neon;
-    src: url(/fonts/Neonstar.ttf);
+    src: url(fonts/Neonstar.ttf);
 }
 /*titulos 2*/
 @font-face {
     font-family: geizer;
-    src: url(/fonts/geizer.ttf);
+    src: url(fonts/geizer.ttf);
 }
 /*Corpo de texto*/
 @font-face {
     font-family: quota;
-    src: url(/fonts/Quota.otf);
+    src: url(fonts/Quota.otf);
 }
 
 /*barra de navegação*/
 @font-face {
     font-family: tox_tpw;
-    src: url(/fonts/tox_typewriter.ttf);
+    src: url(fonts/tox_typewriter.ttf);
 }
 
 
@@ -452,4 +452,5 @@ body {
 }
 .assinatura img {
     max-width: 65%;
+
 }
